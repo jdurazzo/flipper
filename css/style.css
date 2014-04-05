@@ -936,8 +936,15 @@ header {}
 	opacity: 1;
 }
 
+.contact-wrap form p {
+	font-style: italic;
+	font-size: 14px;
+	width: 100%;
+	line-height: inherit;
+}
+
 .submit {
-	margin: 0;
+	margin: 20px 0 0 0;
 }
 
 /*------------------------------------------------------------- 
@@ -946,7 +953,7 @@ header {}
 
 .contact-info {
 	padding: 90px 0 75px;
-	background: #2f2f2f;
+	background: #163547;
 	border-bottom: 1px solid #3c3c3c;
 }
 
@@ -1005,7 +1012,7 @@ header {}
 }
 
 footer {
-	background: #2f2f2f;
+	background: #163547;
 	padding: 35px 0;
 }
 
