@@ -19,7 +19,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -208,11 +208,11 @@ header {}
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #393f4a;
+	color: #fff;
 	font-size: 15px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin-top: 5px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .nav > li > a {
@@ -223,12 +223,6 @@ header {}
 
 .topnav-pages {
 	background: #fff;
-}
-
-.navbar-default .navbar-nav > li > a.btn-lite {
-	background: #3a3a3a;
-	color: #fff;
-	border: 0px;
 }
 
 
@@ -247,7 +241,6 @@ header {}
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #caf1ff;
-	font-family: Raleway;
 }
 
 /*------------------------------------------------------------- 
@@ -412,7 +405,6 @@ header {}
 	line-height: 36px;
 	width: 50%;
 	margin: 0 auto;
-	font-family: Lato;
 }
 
 .news-wrap h3 {
@@ -1669,17 +1661,17 @@ footer p a:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #393f4a;
-	font-size: 10px;
-	text-transform: uppercase;
-	margin-top: 5px;
-	font-weight: 700;
+
 }
 
 .nav > li > a {
 	position: relative;
 	display: block;
-	padding: 10px 5px;
+}
+
+.navbar-brand > .logo {
+	width:70%;
+	height:70%;
 }
 
 .btn-dark {
