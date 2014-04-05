@@ -281,7 +281,7 @@ header {}
 
 .how-it-works-wrap {
 	background: #163547;
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 	color: #fff;
 }
 
@@ -403,13 +403,14 @@ header {}
 	font-size: 16px;
 	text-align: center;
 	line-height: 26px;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
 
 .section-title p {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 300;
+	width: 40%;
 }
 
 .news-wrap h3 {
