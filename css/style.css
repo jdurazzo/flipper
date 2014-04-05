@@ -263,6 +263,7 @@ header {}
 	font-size: 24px;
 	margin: 0 0 15px;
 	text-align: center;
+	font-weight: 400;
 }
 
 .features-content p {
@@ -399,11 +400,16 @@ header {}
 }
 
 .how-it-works-wrap p,.features-wrap p,.portfolio-wrap p,.team-wrap p,.pricing-wrap p,.news-wrap p,.contact-wrap p {
-	font-size: 22px;
+	font-size: 16px;
 	text-align: center;
-	line-height: 36px;
+	line-height: 26px;
 	width: 50%;
 	margin: 0 auto;
+}
+
+.section-title p {
+	font-size: 22px;
+	font-weight: 300;
 }
 
 .news-wrap h3 {
