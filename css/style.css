@@ -138,9 +138,9 @@ a {
 }
 
 .btn-lite:hover {
-	color: #fff;
-	background: transparent;
-	border: 2px solid #fff;
+	color: #2c9edd !important;
+	border: 3px solid #2c9edd;
+	background: #caf1ff;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
