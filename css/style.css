@@ -9,6 +9,7 @@ body,html {
 
 body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #143547;
 }
 
 .body {
@@ -239,7 +240,7 @@ header {}
                     FEATURES STYLES
 ---------------------------------------------------------------*/
 
-.features {
+.features-wrap {
 	background: #fff;
 	padding: 100px 0;
 }
@@ -268,6 +269,39 @@ header {}
 }
 
 /*------------------------------------------------------------- 
+                    HOW IT WORKS STYLES
+---------------------------------------------------------------*/
+
+.how-it-works-wrap {
+	background: #163547;
+	padding: 100px 0;
+	color: #fff;
+}
+
+.how-it-works-content {
+}
+
+.how-it-works-content img {
+	display: table;
+	margin: 0 auto 35px;
+}
+
+.how-it-works-content h4 {
+	font-size: 24px;
+	margin: 0 0 15px;
+	text-align: center;
+}
+
+.how-it-works-content p {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 0 auto;
+	width: 95%;
+}
+
+/*------------------------------------------------------------- 
                     COMMON STYLES
 ---------------------------------------------------------------*/
 
@@ -276,8 +310,7 @@ header {}
 	padding: 120px 0;
 }
 
-.portfolio-wrap h3,.team-wrap h3,.pricing-wrap h3,.news-wrap h3,.contact-wrap h3 {
-	color: #fff;
+.how-it-works-wrap h3,.features-wrap h3,.portfolio-wrap h3,.team-wrap h3,.pricing-wrap h3,.news-wrap h3,.contact-wrap h3 {
 	text-transform: uppercase;
 	margin: 0 0 15px;
 	text-align: center;
@@ -285,9 +318,8 @@ header {}
 	letter-spacing: 4px;
 }
 
-.portfolio-wrap p,.team-wrap p,.pricing-wrap p,.news-wrap p,.contact-wrap p {
+.how-it-works-wrap p,.features-wrap p,.portfolio-wrap p,.team-wrap p,.pricing-wrap p,.news-wrap p,.contact-wrap p {
 	font-size: 22px;
-	color: #96eaba;
 	text-align: center;
 	line-height: 36px;
 	width: 50%;
