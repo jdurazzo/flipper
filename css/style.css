@@ -302,6 +302,80 @@ header {}
 }
 
 /*------------------------------------------------------------- 
+                    TEAM STYLES
+---------------------------------------------------------------*/
+
+.team-wrap {
+	background: #e0f4ff;
+	padding: 140px 0;
+}
+
+.staff-img {
+	position: relative;
+	padding: 30px 0;
+	display: table;
+	height: 174px;
+}
+
+.staff-content h5 {
+	font-size: 28px;
+	color: #393f4a;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 0 5px;
+	font-family: Open sans;
+}
+
+.staff-content p {
+	font-size: 18px;
+	text-align: center;
+	color: #db5940;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: Open sans;
+}
+
+.team-social {
+	padding: 0;
+	margin: 0 auto;
+	display: table;
+}
+
+.team-social li {
+	float: left;
+	list-style: none;
+	margin: 30px 5px 35px;
+}
+
+.team-social li a {
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	background: #b7b7b7;
+	border-radius: 50%;
+	display: table;
+}
+
+.sl-fb:hover {
+	background: #4f689e;
+}
+
+.sl-tw:hover {
+	background: #74c7d5;
+}
+
+.sl-gp:hover {
+	background: #df5c64;
+}
+
+.sl-ln:hover {
+	background: #017eba;
+}
+
+
+/*------------------------------------------------------------- 
                     COMMON STYLES
 ---------------------------------------------------------------*/
 
@@ -329,10 +403,6 @@ header {}
 
 .news-wrap h3 {
 	color: #393f4a;
-}
-
-.team-wrap p {
-	color: #f9d9d3;
 }
 
 .pricing-wrap p {
@@ -571,78 +641,6 @@ header {}
 	display: table;
 }
 
-/*------------------------------------------------------------- 
-                    TEAM STYLES
----------------------------------------------------------------*/
-
-.team-wrap {
-	background: #db5940;
-	padding: 140px 0;
-}
-
-.staff-img {
-	position: relative;
-	padding: 30px 0;
-	display: table;
-	height: 174px;
-}
-
-.staff-content h5 {
-	font-size: 28px;
-	color: #393f4a;
-	font-weight: 300;
-	text-align: center;
-	margin: 0 0 5px;
-	font-family: Open sans;
-}
-
-.staff-content p {
-	font-size: 18px;
-	text-align: center;
-	color: #db5940;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: Open sans;
-}
-
-.team-social {
-	padding: 0;
-	margin: 0 auto;
-	display: table;
-}
-
-.team-social li {
-	float: left;
-	list-style: none;
-	margin: 30px 5px 35px;
-}
-
-.team-social li a {
-	width: 40px;
-	height: 40px;
-	color: #fff;
-	text-align: center;
-	line-height: 40px;
-	background: #b7b7b7;
-	border-radius: 50%;
-	display: table;
-}
-
-.sl-fb:hover {
-	background: #4f689e;
-}
-
-.sl-tw:hover {
-	background: #74c7d5;
-}
-
-.sl-gp:hover {
-	background: #df5c64;
-}
-
-.sl-ln:hover {
-	background: #017eba;
-}
 
 /*------------------------------------------------------------- 
                     TESTIMONIALS STYLES
