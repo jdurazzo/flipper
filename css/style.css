@@ -336,7 +336,6 @@ header {}
 .staff-content p {
 	font-size: 18px;
 	text-align: center;
-	color: #db5940;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: Open sans;
@@ -405,6 +404,7 @@ header {}
 	line-height: 26px;
 	width: 60%;
 	margin: 0 auto;
+	text-transform: capitalize;
 }
 
 .section-title p {
@@ -443,7 +443,6 @@ header {}
 ---------------------------------------------------------------*/
 
 .staff-content {
-	background: #fff;
 	border-radius: 5px;
 }
 
@@ -975,9 +974,8 @@ header {}
 ---------------------------------------------------------------*/
 
 .contact-info {
-	padding: 90px 0 75px;
+	padding: 90px 0 0px;
 	background: #163547;
-	border-bottom: 1px solid #3c3c3c;
 }
 
 .contact-info img {
@@ -1010,12 +1008,12 @@ header {}
 }
 
 .social li a {
-	width: 40px;
-	height: 40px;
+	width: 56px;
+	height: 56px;
 	color: #000;
 	text-align: center;
 	line-height: 40px;
-	background: #fff;
+	background: #192831;
 	border-radius: 50%;
 	display: table;
 	font-size: 18px;
@@ -1036,23 +1034,22 @@ header {}
 
 footer {
 	background: #163547;
-	padding: 35px 0;
+	padding: 20px 0 30px;
 }
 
 footer p {
 	text-align: center;
-	color: #4f4f4f;
-	font-size: 16px;
+	color: #2980b9;
+	font-size: 12px;
 	margin: 0;
 }
 
 footer p a {
-	color: #f8bc3b;
+	color:#2980b9
 }
 
 footer p a:hover {
-	color: #f8bc3b;
-	text-decoration: underline;
+	color:#2980b9
 }
 
 /*------------------------------------------------------------- 
