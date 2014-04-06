@@ -660,6 +660,8 @@ header {}
 
 .testimonial-wrap {
 	padding: 105px 0;
+	background-image:url('/images/testimonials/testimonials-tile.png');
+	background-repeat:repeat;
 }
 
 .quote img {
@@ -913,6 +915,10 @@ header {}
 .contact-wrap {
 	padding: 120px 0;
 	background: #2980b9;
+}
+
+.contact-wrap h3 {
+	color: #ffffff;
 }
 
 .contact-wrap input,.contact-wrap textarea {
