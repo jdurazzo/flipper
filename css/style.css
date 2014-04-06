@@ -445,11 +445,9 @@ header {}
 	height:50px;
 }
 
-.contact-social li a.btn-lite.contact-share-twitter {
-	background-image:url("images/contact/twitter-logo.png");
-//	background-color:#000;
+.contact-social li .btn-lite i {
+	padding: 14px 0 0 0;
 }
-
 
 
 
