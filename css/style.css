@@ -404,7 +404,6 @@ header {}
 	line-height: 26px;
 	width: 60%;
 	margin: 0 auto;
-	text-transform: capitalize;
 }
 
 .section-title p {
@@ -1741,13 +1740,13 @@ footer p a:hover {
 @media only screen and (max-width: 767px) {
 
 .intro-header h6 {
-	font-size: 30px !important;
-	margin-left: 25%;
+	font-size: 38px !important;
+	letter-spacing:-1px;
 }
 
 .intro-header {
-	background: #f8bc3b;
-	padding: 100px 0 20px;
+	background: #2c9edd;
+	padding: 70px 0 0;
 }
 
 .navbar-brand > .logo {
