@@ -292,12 +292,9 @@ header {}
 	color: #fff;
 }
 
-.how-it-works-content {
-}
-
 .how-it-works-content img {
 	display: table;
-	margin: 0 auto 35px;
+	width:100%;
 }
 
 .how-it-works-content h4 {
