@@ -205,6 +205,12 @@ header {}
 	transition: all .3s ease-in-out;
 }
 
+.navbar-brand > .logo {
+	margin-top: 8px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	font-size: 15px;
@@ -1740,7 +1746,7 @@ footer p a:hover {
 @media only screen and (max-width: 767px) {
 
 .intro-header h6 {
-	font-size: 38px !important;
+	font-size: 36px !important;
 	letter-spacing:-1px;
 }
 
@@ -1750,8 +1756,8 @@ footer p a:hover {
 }
 
 .navbar-brand > .logo {
-	width:70%;
-	height:70%;
+	width:50%;
+	height:50%;
 }
 
 .navbar-collapse.in {

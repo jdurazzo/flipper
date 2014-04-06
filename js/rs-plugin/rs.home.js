@@ -7,7 +7,7 @@
 			if($(".fullwidthbanner").get(0)) {
 				var rev = $(".fullwidthbanner").revolution({
 					delay:9000,
-					startheight:700,
+					startheight:550,
 					startwidth:1180,
 
 					hideThumbs:10,
