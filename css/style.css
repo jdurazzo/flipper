@@ -429,6 +429,15 @@ header {}
 	color: #fff;
 }
 
+.contact-social li {
+	float: left;
+	list-style: none;	
+}
+.contact-social li .btn-lite{
+	padding: 0;	
+	width: inherit;
+}
+
 /*------------------------------------------------------------- 
                     BLOG STYLES
 ---------------------------------------------------------------*/
@@ -973,7 +982,7 @@ header {}
 
 .contact-info img {
 	display: table;
-	margin: 0 auto 45px;
+	margin: 0 auto 40px;
 }
 
 .contact-info p {
