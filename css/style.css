@@ -438,10 +438,20 @@ header {}
 	float: left;
 	list-style: none;	
 }
-.contact-social li .btn-lite{
+.contact-social li .btn-lite {
 	padding: 0;	
 	width: inherit;
+	width: 50px;
+	height:50px;
 }
+
+.contact-social li a.btn-lite.contact-share-twitter {
+	background-image:url("images/contact/twitter-logo.png");
+//	background-color:#000;
+}
+
+
+
 
 /*------------------------------------------------------------- 
                     BLOG STYLES
