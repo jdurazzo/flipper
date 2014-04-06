@@ -430,25 +430,6 @@ header {}
 	color: #888c92;
 }
 
-.contact-wrap p {
-	color: #fff;
-}
-
-.contact-social li {
-	float: left;
-	list-style: none;	
-}
-.contact-social li .btn-lite {
-	padding: 0;	
-	width: inherit;
-	width: 50px;
-	height:50px;
-}
-
-.contact-social li .btn-lite i {
-	padding: 14px 0 0 0;
-}
-
 
 
 /*------------------------------------------------------------- 
@@ -976,11 +957,45 @@ header {}
 }
 
 .contact-wrap form p {
+	font-weight: 300;
 	font-style: italic;
 	font-size: 14px;
 	width: 100%;
 	line-height: inherit;
+	color: #fff;
+	margin-bottom: 26px;
 }
+
+.contact-wrap form .sc1 a{
+	margin: 10px auto;
+}
+
+.contact-wrap ul.contact-social {
+	width: 265px;
+	margin: 10px auto;
+}
+
+.contact-social li {
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+	color: #caf1ff;
+	font-weight:700;	
+}
+.contact-social li.share-label {
+	padding:20px 14px 0 0;
+}
+.contact-social li .btn-lite {
+	padding: 0;	
+	width: inherit;
+	width: 60px;
+	height:60px;
+}
+
+.contact-social li .btn-lite i {
+	padding: 19px 0 0 0;
+}
+
 
 /*------------------------------------------------------------- 
                     CONTACT INFO STYLES
