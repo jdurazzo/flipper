@@ -228,7 +228,9 @@ header {}
 	background: #fff;
 }
 
-
+.navbar-fixed-top {
+	border-bottom:1px solid #2c9edd;
+}
 
 /*------------------------------------------------------------- 
                     SLIDER STYLES
@@ -953,6 +955,10 @@ header {}
 .contact-wrap textarea::-moz-placeholder {
 	color: #2980b9;
 	opacity: 1;
+}
+
+.contact-wrap p {
+	color: #fff;
 }
 
 .contact-wrap form p {
