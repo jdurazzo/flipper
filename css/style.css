@@ -1939,4 +1939,8 @@ footer p a:hover {
 	margin: 0 auto;
 }
 
+.intro-header .fullwidthbanner {
+	min-height:210px;
+}
+
 }
